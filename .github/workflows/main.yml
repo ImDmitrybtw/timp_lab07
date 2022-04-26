@@ -1,0 +1,20 @@
+name: buildFormatter
+
+on:
+  push:
+    branches: main
+  pull_request:
+    branches: main
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: git clone
+        uses: actions/checkout@v2
+      - name: build 
+        run: |
+          cmake -B _build
+          cmake --build _build --target lab07
+          ./_build/lab07
