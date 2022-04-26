@@ -1,4 +1,4 @@
-name: buildFormatter
+name: buildHello
 
 on:
   push:
