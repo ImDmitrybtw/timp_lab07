@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(lab07)
+
 
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -7,9 +7,11 @@ include("cmake/HunterGate.cmake")
 
 
 HunterGate(
-        URL "https://github.com/"
-        SHA1 ""
+        URL "https://github.com/ImDmitrybtw/hunter/archive/hfv1.0.0.tar.gz"
+        SHA1 "0186fecdae35d4aa4d4d1b9db851fa166563e9b9"
 )
+
+project(lab07)
 
 hunter_add_package(hello_foo)
 find_package(hello_foo)
