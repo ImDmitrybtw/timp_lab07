@@ -1,5 +1,4 @@
 name: buildHello
-
 on:
   push:
     branches: main
