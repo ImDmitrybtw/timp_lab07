@@ -15,4 +15,12 @@
 
 ![image](https://user-images.githubusercontent.com/92674699/168254417-e5d534c5-75e7-4a7e-bedd-dd1a406da89d.png)
 
-Чтобы заполнить поля URL и SHA1 необходимо создать tag с версией для репозитория функции, скачать архив и через командную консоль прописать команду <openssl sha1>
+5) Чтобы заполнить поля URL и SHA1 необходимо создать tag с версией для репозитория функции, скачать архив и через командную консоль прописать команду для нахождения хэша SHA1
+ 
+![image](https://user-images.githubusercontent.com/92674699/168255392-ecd9ade5-bde2-4c84-b874-b949d89cef2c.png)
+6) [Здесь](https://github.com/ImDmitrybtw/hunter/blob/hello_foo/cmake/configs/default.cmake) прописываем hunter_config для своего проекта(конфиги должны быть расположены в алфавитном порядке).
+7) В репозитории лабороторной прописываем CMakeLists с добавлением пакета с функцией (поля заполняются аналогично (5))
+
+![image](https://user-images.githubusercontent.com/92674699/168257313-ee271440-375f-4240-8311-cd1271928eff.png)
+
+
