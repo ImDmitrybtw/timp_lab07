@@ -8,6 +8,7 @@
    ![image](https://user-images.githubusercontent.com/92674699/168253350-b1371d73-26df-43de-b848-0673bcf92492.png)
  
 3) Прописываем файл Config.cmake.in
+
    ![image](https://user-images.githubusercontent.com/92674699/168253252-4d6cda9c-3e4d-4f44-865a-08ed13d2b52c.png)
 
 4) 
