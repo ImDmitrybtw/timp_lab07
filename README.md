@@ -20,7 +20,7 @@
 ![image](https://user-images.githubusercontent.com/92674699/168255392-ecd9ade5-bde2-4c84-b874-b949d89cef2c.png)
 
 6) [Здесь](https://github.com/ImDmitrybtw/hunter/blob/hello_foo/cmake/configs/default.cmake) прописываем hunter_config для своего проекта(конфиги должны быть расположены в алфавитном порядке).
-7) В репозитории лабороторной прописываем CMakeLists с добавлением пакета с функцией (поля заполняются аналогично (5))
+7) В репозитории лабороторной прописываем CMakeLists с добавлением пакета с функцией (поля заполняются аналогично (5), но с tag'ом от hunter'a)
 
 ![image](https://user-images.githubusercontent.com/92674699/168257313-ee271440-375f-4240-8311-cd1271928eff.png)
 
